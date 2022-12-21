@@ -36,3 +36,6 @@ True
 False
 False
 ```
+- not: This logical operator inverts the truth value. The truth table for “not” is depicted below. 
+- in: This keyword is used to check if a container contains a value. This keyword is also used to loop through the container.
+- is: This keyword is used to test object identity, i.e to check if both the objects take the same memory location or not. 
