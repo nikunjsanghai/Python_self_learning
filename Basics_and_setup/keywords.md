@@ -39,3 +39,48 @@ False
 - not: This logical operator inverts the truth value. The truth table for “not” is depicted below. 
 - in: This keyword is used to check if a container contains a value. This keyword is also used to loop through the container.
 - is: This keyword is used to test object identity, i.e to check if both the objects take the same memory location or not. 
+```
+# showing logical operation
+# or (returns True)
+print(True or False)
+
+# showing logical operation
+# and (returns False)
+print(False and True)
+
+# showing logical operation
+# not (returns False)
+print(not True)
+
+# using "in" to check
+if 's' in 'geeksforgeeks':
+	print("s is part of geeksforgeeks")
+else:
+	print("s is not part of geeksforgeeks")
+
+# using "in" to loop through
+for i in 'geeksforgeeks':
+	print(i, end=" ")
+
+print("\r")
+
+# using is to check object identity
+# string is immutable( cannot be changed once allocated)
+# hence occupy same memory location
+print(' ' is ' ')
+
+# using is to check object identity
+# dictionary is mutable( can be changed once allocated)
+# hence occupy different memory location
+print({} is {})
+```
+Output:
+```
+True
+False
+False
+s is part of geeksforgeeks
+g e e k s f o r g e e k s 
+True
+False
+```
